@@ -27,9 +27,34 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/web/assets/mobirise-icons2/mobirise2.css",
+              "src/assets/web/assets/mobirise-icons/mobirise-icons.css",
+              "src/assets/tether/tether.min.css",
+              "src/assets/bootstrap/css/bootstrap.min.css",
+              "src/assets/bootstrap/css/bootstrap-grid.min.css",
+              "src/assets/bootstrap/css/bootstrap-reboot.min.css",
+              "src/assets/dropdown/css/style.css",
+              "src/assets/socicon/css/styles.css",
+              "src/assets/theme/css/style.css",
+              "src/assets/mobirise/css/mbr-additional.css",
+              "src/assets/mobirise/css/mbr-additional.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/web/assets/jquery/jquery.min.js",
+              "src/assets/popper/popper.min.js",
+              "src/assets/tether/tether.min.js",
+              "src/assets/bootstrap/js/bootstrap.min.js",
+              "src/assets/smoothscroll/smooth-scroll.js",
+              "src/assets/dropdown/js/nav-dropdown.js",
+              "src/assets/dropdown/js/navbar-dropdown.js",
+              "src/assets/touchswipe/jquery.touch-swipe.min.js",
+              "src/assets/playervimeo/vimeo_player.js",
+              "src/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js",
+              "src/assets/mbr-testimonials-slider/mbr-testimonials-slider.js",
+              "src/assets/theme/js/script.js",
+              "src/assets/formoid.min.js"
+            ]
           },
           "configurations": {
             "production": {

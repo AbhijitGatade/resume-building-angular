@@ -1,0 +1,46 @@
+<section class="features8  cid-sk0FdnFMbg" id="features8-4" style="background-color: gray;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 ">
+        <app-admin-menus></app-admin-menus>
+      </div>
+      <div class="col-lg-9 ">
+        <div class="row">
+          <div class="col-lg-12">
+            <h4 style="color:white;">Qualifications</h4>
+            <hr >
+          </div>
+          <div class="col-lg-12">
+              <form [formGroup]="formdata" (ngSubmit) = "submit(formdata.value)">
+                <input type="hidden" name="id" formControlName="id" />
+                <label style="color: white;">Qualification</label>
+                <input type="text" class="form-control" name="title" formControlName="title" />
+                <br />
+                <button type="submit" [disabled]="!formdata.valid" class="btn btn-sm btn-success">Save</button>
+              </form>
+          </div>
+          <div class="col-lg-12">
+            <br />
+          </div>
+          <div class="col-lg-12">
+            <table class="table table-bordered">
+              <tr>
+                <th>No</th>
+                <th>Title</th>
+                <th>Action</th>
+              </tr>
+              <tr *ngFor="let qualification of qualifications; let i = index;">
+                <td>{{ i + 1 }}</td>
+                <td>{{ qualification.title }}</td>
+                <td>
+                  <span class="btn btn-sm btn-primary" (click)="edit(qualification._id)">Edit</span>
+                  <span class="btn btn-sm btn-danger" (click)="delete(qualification._id)">Delete</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
