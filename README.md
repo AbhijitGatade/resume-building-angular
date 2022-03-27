@@ -1,5 +1,7 @@
 # ResumeBuilding
 
+##Before starting executing this project, your NODEJS project must be running on http://localhost:8081/ and mongodb also running.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
 ## Development server
